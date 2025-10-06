@@ -1,5 +1,5 @@
 services:
-  nlw-pg:
+  nlw-agents-pg:
     image: pgvector/pgvector:pg17
     environment:
       POSTGRES_USER: docker
